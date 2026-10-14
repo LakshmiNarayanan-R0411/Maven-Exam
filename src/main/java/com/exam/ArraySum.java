@@ -1,0 +1,11 @@
+package com.exam;
+
+public class ArraySum {
+    public int sum(int[] arr) {
+        int total = 0;
+        for (int x : arr) {
+            total += x;
+        }
+        return total;
+    }
+}
